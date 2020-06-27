@@ -11,8 +11,11 @@ export default function Home() {
       </div>
       <div className="text px-4">
         <div className="flex-column">
-          <h1>Hello, I'm Aline Santoro</h1>
+          <h1>
+            Hello, I'm <span className="highlight">Aline Santoro</span>
+          </h1>
           <h2>I'm a front-end ReactJS developer</h2>
+          <button className="btn">View my work</button>
         </div>
       </div>
     </div>

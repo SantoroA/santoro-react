@@ -23,3 +23,12 @@
   font-size: 2.5rem;
   font-weight: 500;
 }
+.Home .highlight {
+  color: #2bab98;
+}
+.Home .btn {
+  margin-top: 20px;
+  background-color: #2bab98;
+  color: #2c0d2c;
+  font-weight: 500;
+}

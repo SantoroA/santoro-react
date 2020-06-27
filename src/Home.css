@@ -1,0 +1,25 @@
+.Home video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+}
+.Home {
+  background-color: #3b322e;
+  color: #fff4f0;
+}
+.Home .text {
+  position: relative;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Home h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+}

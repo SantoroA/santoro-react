@@ -9,9 +9,8 @@ import "./App.css";
 function App() {
   return (
     <div className="App container-flex">
-      <Home />
-
       <Switch>
+        <Route exact path="/" component={Home} />
         <Route exact path="/about" component={AboutMe} />
         <Route exact path="/portfolio" component={GraphicDesign} />
       </Switch>

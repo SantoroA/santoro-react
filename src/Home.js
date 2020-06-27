@@ -1,12 +1,13 @@
 import React from "react";
 import "./Home.css";
-import world from "./imgs/world.mp4";
+
+import pink from "./imgs/pink.mp4";
 
 export default function Home() {
   return (
     <div className="Home">
       <div className="video-containter">
-        <video loop autoPlay muted playsInline src={world}></video>
+        <video loop autoPlay muted playsInline src={pink}></video>
       </div>
       <div className="text px-4">
         <div className="flex-column">

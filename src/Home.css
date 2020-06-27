@@ -5,7 +5,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  opacity: 0.5;
+  opacity: 0.4;
 }
 .Home {
   background-color: #2c0d2c;
@@ -25,10 +25,11 @@
 }
 .Home .highlight {
   color: #2bab98;
+  font-weight: 600;
 }
 .Home .btn {
   margin-top: 20px;
   background-color: #2bab98;
   color: #2c0d2c;
-  font-weight: 500;
+  font-weight: 600;
 }

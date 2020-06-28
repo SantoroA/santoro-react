@@ -2,3 +2,8 @@
   width: 80%;
   max-width: 500px;
 }
+.About .description {
+  margin: 20px;
+  font-size: 1em;
+  text-align: center;
+}

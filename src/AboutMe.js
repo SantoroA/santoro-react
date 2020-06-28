@@ -11,9 +11,17 @@ export default function AboutMe() {
       <Title>
         <h1>About Me</h1>
       </Title>
-      <row>
-        <img className="mt-4" src={coder} alt="coder" />
-      </row>
+      <div className="row mt-5">
+        <div className="col-md-6">
+          <img src={coder} alt="coder" />
+          <p className="description">
+            I'm an aspiring Front-End React-JS Developer.
+          </p>
+        </div>
+        <div className="col-md-6">
+          <h3>Qualifications go here</h3>
+        </div>
+      </div>
     </div>
   );
 }

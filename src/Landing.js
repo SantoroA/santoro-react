@@ -15,7 +15,7 @@ export default function Landing() {
           <h1>
             Hello, I'm <span className="highlight">Aline Santoro</span>
           </h1>
-          <h2>I'm a front-end ReactJS developer</h2>
+          <h2>I'm a front-end React-JS developer</h2>
           <Link className="btn" exact to="/portfolio">
             View my work
           </Link>

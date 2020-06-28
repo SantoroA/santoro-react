@@ -3,6 +3,7 @@
 }
 .Nav a {
   color: #2c0d2c;
+  font-weight: 500;
 }
 .Nav .navbar .navbar-toggler-icon {
   height: 100%;

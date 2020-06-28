@@ -14,7 +14,7 @@ export default function AboutMe() {
       <div className="row mt-5">
         <div className="col-md-6">
           <img src={coder} alt="coder" />
-          <p className="description">
+          <p className="description px-2">
             I'm an aspiring Front-End React-JS Developer. I may not have a lot
             of experience in coding, but I do have tons of experience in the
             real world. I've worked as an architect, as a Professor, as a
@@ -25,7 +25,7 @@ export default function AboutMe() {
           </p>
         </div>
         <div className="col-md-6">
-          <h3>Qualifications go here</h3>
+          <p>Qualifications: in construction</p>
         </div>
       </div>
     </div>

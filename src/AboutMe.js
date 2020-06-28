@@ -18,10 +18,10 @@ export default function AboutMe() {
             I'm an aspiring Front-End React-JS Developer. I may not have a lot
             of experience in coding, but I do have tons of experience in the
             real world. I've worked as an architect, as a Professor, as a
-            freelance graphic designer, I have a specialization and a masters in
-            structure... However, I gave it all up when I fell in love with
-            coding! Recently finished all SheCodes courses (SheCodes Plus and
-            SheCodes React)
+            freelance graphic designer... I also have a specialization and a
+            masters degree in structure... However, I gave it all up when I fell
+            in love with coding! Recently finished all SheCodes courses
+            (SheCodes Plus and SheCodes React)
           </p>
         </div>
         <div className="col-md-6">

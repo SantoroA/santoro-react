@@ -21,7 +21,8 @@ export default function AboutMe() {
             freelance graphic designer... I also have a specialization and a
             masters degree in structure... However, I gave it all up when I fell
             in love with coding! Recently finished all SheCodes courses
-            (SheCodes Plus and SheCodes React)
+            (SheCodes Plus and SheCodes React) and am looking for an opportunity
+            to expand my coding knowledge while working closely with designers.
           </p>
         </div>
         <div className="col-md-6">

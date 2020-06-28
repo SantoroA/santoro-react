@@ -20,13 +20,13 @@ export default function AboutMe() {
             {isExpanded ? (
               <p>
                 The day I fell in love with coding changed my whole life. I am
-                an aspiring Front-End React-JS Developer with a bachelors in
-                Architecture and a master in structure. I have lived and studied
-                internationally including a year of Architecture in London in
-                2013, 3 months of Interior Design in Milan, and a specilization
-                in Structure and Foundations in Brazil. I am fluent in
-                Portuguese, English and Italian. <br /> My experience as an
-                architect, professor, and graphic designer have led me to
+                an aspiring Front-End React-JS Developer with a Bachelor Degree
+                in Architecture and a Master Degree in structure. I have lived
+                and studied internationally including a year of Architecture in
+                London in 2013, 3 months of Interior Design in Milan, and a
+                specilization in Structure and Foundations in Brazil. I am
+                fluent in Portuguese, English and Italian. <br /> My experience
+                as an architect, professor, and graphic designer have led me to
                 pursuing a career in coding. I recently finished all SheCodes
                 courses (SheCodes Plus and SheCodes React) and am looking for an
                 entry-level career opportunity to expand my coding knowledge

@@ -17,7 +17,7 @@ export default function Portfolio() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img className="weather-app" src={weatherApp} />
+            <img className="weather-app" src={weatherApp} alt="weather app" />
           </a>
           <h3 className="mt-4">ReactJS Weather App</h3>
         </div>

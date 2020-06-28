@@ -11,7 +11,7 @@ export default function Portfolio() {
         <h1>My Portfolio</h1>
       </Title>
       <div className="row mt-5">
-        <div className="col-3">
+        <div className="col-md-3 col-6">
           <a
             href="https://suspicious-brattain-a20b89.netlify.app/"
             target="_blank"

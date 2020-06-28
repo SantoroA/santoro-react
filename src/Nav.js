@@ -79,6 +79,14 @@ export default function Nav(props) {
             >
               <i class="fab fa-instagram"></i>
             </a>
+            <a
+              className="px-2 social-media"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/SantoroA"
+            >
+              <i class="fab fa-github"></i>
+            </a>
           </div>
         </div>
       </nav>

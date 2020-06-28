@@ -1,0 +1,35 @@
+.Landing video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+}
+.Landing {
+  color: #2c0d2c;
+  /* #ffeeff */
+}
+.Landing .text {
+  position: relative;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Landing h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.Landing .highlight {
+  color: #2bab98;
+  font-weight: 600;
+}
+.Landing .btn {
+  margin-top: 20px;
+  background-color: #2bab98;
+  color: #2c0d2c;
+  font-weight: 600;
+}

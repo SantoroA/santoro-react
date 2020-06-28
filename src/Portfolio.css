@@ -5,3 +5,9 @@
   font-size: 1.2em;
   font-weight: 600;
 }
+.Portfolio a {
+  color: #2c0d2c;
+}
+.Portfolio a:hover {
+  text-decoration: none;
+}

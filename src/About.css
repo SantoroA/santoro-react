@@ -16,3 +16,15 @@
   color: #2bab98;
   font-weight: 700;
 }
+.About .programs {
+  background-color: white;
+  height: 120px;
+}
+.About .icon {
+  font-size: 2.8em;
+  color: #5a445a;
+}
+.About .icon-description {
+  font-size: 0.8em;
+  color: #5a445a;
+}

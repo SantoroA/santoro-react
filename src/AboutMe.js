@@ -55,8 +55,13 @@ export default function AboutMe() {
           </p>
           <QualitiesCard
             title="Fast learner"
-            text="What takes months for other people to learn, takes me weeks."
+            text="What takes other people months to learn, takes me weeks."
             icon="fa-book-reader"
+          />
+          <QualitiesCard
+            title="Proactive"
+            text="I don't sit back and wait for things to happen, I make them happen"
+            icon="fa-running"
           />
         </div>
       </div>

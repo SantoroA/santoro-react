@@ -1,10 +1,11 @@
 import React from "react";
 import useToggle from "./hooks/useToggle";
+import "./QualitiesCard.css";
 
 export default function QualitiesCard(props) {
   const [isCardExpanded, toggleIsCardExpanded] = useToggle(false);
   return (
-    <>
+    <div className="QualitiesCard pb-4">
       {isCardExpanded ? (
         <div onMouseLeave={toggleIsCardExpanded} className="card py-2 mb-3">
           <div className="row no-gutters">
@@ -20,10 +21,10 @@ export default function QualitiesCard(props) {
           </div>
         </div>
       ) : (
-        <button className="btn" onMouseEnter={toggleIsCardExpanded}>
+        <button className="btn m-auto" onMouseEnter={toggleIsCardExpanded}>
           <i className={`fas ${props.icon}`}></i>
         </button>
       )}
-    </>
+    </div>
   );
 }

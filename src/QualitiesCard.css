@@ -1,0 +1,26 @@
+.QualitiesCard h2 {
+  font-weight: 600;
+  font-size: 1.5em;
+  color: #2c0d2c;
+}
+.QualitiesCard .card {
+  width: 100%;
+  border-radius: 0;
+  border: 2px solid #5a445a;
+  color: #5a445a;
+}
+.QualitiesCard .card h5 {
+  color: #2c0d2c;
+}
+.QualitiesCard .btn {
+  border-radius: 0;
+  border: 2px solid #2c0d2c;
+  margin-bottom: 100px;
+  width: 150px;
+  height: 150px;
+  background-color: white;
+}
+.QualitiesCard .fas {
+  font-size: 5em;
+  color: #2bab98;
+}

@@ -1,14 +1,17 @@
-import React, { useState } from "react";
+import React from "react";
+import useToggle from "./hooks/useToggle";
+import QualitiesCard from "./QualitiesCard";
 import Title from "./Containers/Title";
 import coder from "./imgs/coder.svg";
 import Nav from "./Nav";
 import "./About.css";
+
 export default function AboutMe() {
-  const [isExpanded, setIsExpanded] = useState(false);
+  const [isExpanded, toggleIsExpanded] = useToggle(false);
+
   return (
     <div className="About container">
       <Nav fixedTop="true" />
-
       <Title>
         <h1>About Me</h1>
       </Title>
@@ -31,21 +34,15 @@ export default function AboutMe() {
                 courses (SheCodes Plus and SheCodes React) and am looking for an
                 entry-level career opportunity to expand my coding knowledge
                 while working closely with other designers.{" "}
-                <button
-                  className="readMoreLink"
-                  onClick={() => setIsExpanded(false)}
-                >
-                  Collapse
+                <button className="readMoreLink" onClick={toggleIsExpanded}>
+                  Show Less
                 </button>
               </p>
             ) : (
               <p>
                 I am an aspiring Front-End React-JS Developer with a bachelors
                 in Architecture and a master in structure.
-                <button
-                  className="readMoreLink"
-                  onClick={() => setIsExpanded(true)}
-                >
+                <button className="readMoreLink" onClick={toggleIsExpanded}>
                   Read More
                 </button>{" "}
               </p>
@@ -53,7 +50,14 @@ export default function AboutMe() {
           </div>
         </div>
         <div className="col-md-6">
-          <p>Qualifications: in construction</p>
+          <p>
+            <small>(hover to see more)</small>
+          </p>
+          <QualitiesCard
+            title="Fast learner"
+            text="What takes months for other people to learn, takes me weeks."
+            icon="fa-book-reader"
+          />
         </div>
       </div>
     </div>

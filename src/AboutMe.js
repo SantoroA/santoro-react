@@ -68,40 +68,44 @@ export default function AboutMe() {
           </div>
         </div>
       </div>
-      <div className="programs d-flex align-items-center justify-content-center">
-        <div className="flex-column px-4 ">
+      <div className="programs py-5 row align-items-center justify-content-center">
+        <div className="col-sm-2 col-md-1 col-3 px-4 ">
+          <i class="fab icon fa-adobe"></i>
+          <p className="icon-description">AdobeCC</p>
+        </div>
+        <div className="col-sm-2 col-md-1 col-3 px-4 ">
           <i class="fab icon fa-html5"></i>
           <p className="icon-description">HTML</p>
         </div>
-        <div className="flex-column px-4 ">
+        <div className="col-sm-2 col-md-1 col-3 px-4 ">
           <i class="fab icon fa-css3-alt"></i>
           <p className="icon-description">CSS</p>
         </div>
-        <div className="flex-column px-4 ">
+        <div className="col-sm-2 col-md-1 col-3 px-4 ">
           <i class="fab icon fa-js-square"></i>
           <p className="icon-description">JavaScript</p>
         </div>
-        <div className="flex-column px-4 ">
+        <div className="col-sm-2 col-md-1 col-3 px-4 ">
           <i class="fab icon fa-bootstrap"></i>
           <p className="icon-description">Bootstrap</p>
         </div>
-        <div className="flex-column px-4 ">
+        <div className="col-sm-2 col-md-1 col-3 px-4 ">
           <i class="fab icon fa-github"></i>
           <p className="icon-description">GitHub</p>
         </div>
-        <div className="flex-column px-4 ">
+        <div className="col-sm-2 col-md-1 col-3 px-4 ">
           <i class="fas icon fa-laptop-code"></i>
           <p className="icon-description">Editor</p>
         </div>
-        <div className="flex-column px-4 ">
+        <div className="col-sm-2 col-md-1 col-3 px-4 ">
           <i class="fas icon fa-server"></i>
           <p className="icon-description">API</p>
         </div>
-        <div className="flex-column px-4 ">
+        <div className="col-sm-2 col-md-1 col-3 px-4 ">
           <i class="fas icon fa-network-wired"></i>
           <p className="icon-description">Netlify</p>
         </div>
-        <div className="flex-column px-4 ">
+        <div className="col-sm-2 col-md-1 col-3 px-4 ">
           <i class="fab icon  fa-react"></i>
           <p className="icon-description">React</p>
         </div>

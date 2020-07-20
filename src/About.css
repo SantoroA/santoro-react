@@ -18,9 +18,12 @@
 }
 .About .programs {
   background-color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 .About .icon {
-  font-size: 2.4em;
+  font-size: 2em;
   color: #5a445a;
 }
 .About .icon-description {

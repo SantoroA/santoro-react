@@ -23,7 +23,7 @@ export default function Nav(props) {
             aria-label="Toggle navigation"
           >
             <span className="navbar-toggler-icon">
-              <i class="fas fa-bars"></i>
+              <i className="fas fa-bars"></i>
             </span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -61,7 +61,7 @@ export default function Nav(props) {
               rel="noopener noreferrer"
               href="https://www.facebook.com/aline.santoro.7"
             >
-              <i class="fab fa-facebook"></i>
+              <i className="fab fa-facebook"></i>
             </a>
             <a
               className="p-2 social-media"
@@ -69,7 +69,7 @@ export default function Nav(props) {
               rel="noopener noreferrer"
               href="https://www.linkedin.com/in/aline-santoro-88564a15b/"
             >
-              <i class="fab fa-linkedin-in"></i>
+              <i className="fab fa-linkedin-in"></i>
             </a>
             <a
               className="px-2 social-media"
@@ -77,7 +77,7 @@ export default function Nav(props) {
               rel="noopener noreferrer"
               href="https://www.instagram.com/line.santoro/"
             >
-              <i class="fab fa-instagram"></i>
+              <i className="fab fa-instagram"></i>
             </a>
             <a
               className="px-2 social-media"
@@ -85,7 +85,7 @@ export default function Nav(props) {
               rel="noopener noreferrer"
               href="https://github.com/SantoroA"
             >
-              <i class="fab fa-github"></i>
+              <i className="fab fa-github"></i>
             </a>
           </div>
         </div>

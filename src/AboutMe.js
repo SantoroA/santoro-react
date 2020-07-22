@@ -16,13 +16,13 @@ export default function AboutMe() {
         <Title>
           <h1>About Me</h1>
         </Title>
-        <div className="row mt-5">
+        <div className="row my-5 pb-5">
           <div className="col-md-6">
             <img src={coder} alt="coder" />
             <div className="description px-5">
               <h2 className="my-4">This is me!</h2>
               {isExpanded ? (
-                <p className="pb-5">
+                <p>
                   The day I fell in love with coding changed my whole life. I am
                   an aspiring Front-End React-JS Developer with a Bachelor
                   Degree in Architecture and a Master Degree in structure. I
@@ -51,7 +51,7 @@ export default function AboutMe() {
               )}
             </div>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6 pb-5">
             <p>
               <small>(hover to see more)</small>
             </p>
@@ -79,43 +79,43 @@ export default function AboutMe() {
         </div>
       </div>
       <div className="programs row align-items-center justify-content-center">
-        <div className="col-sm-2 col-md-1 col-3 px-4 py-3 ">
+        <div className=" col-md-1 col-2 px-2 py-3 ">
           <i class="fab icon fa-adobe"></i>
           <p className="icon-description mb-0">AdobeCC</p>
         </div>
-        <div className="col-sm-2 col-md-1 col-3 px-4 py-3 ">
+        <div className=" col-md-1 col-2 px-2 py-3 ">
           <i class="fab icon fa-html5"></i>
           <p className="icon-description mb-0">HTML</p>
         </div>
-        <div className="col-sm-2 col-md-1 col-3 px-4 py-3 ">
+        <div className=" col-md-1 col-2 px-2 py-3 ">
           <i class="fab icon fa-css3-alt"></i>
           <p className="icon-description mb-0">CSS</p>
         </div>
-        <div className="col-sm-2 col-md-1 col-3 px-4 py-3 ">
+        <div className=" col-md-1 col-2 px-2 py-3 ">
           <i class="fab icon fa-js-square"></i>
           <p className="icon-description mb-0">JavaScript</p>
         </div>
-        <div className="col-sm-2 col-md-1 col-3 px-4 py-3 ">
+        <div className=" col-md-1 col-2 px-2 py-3 ">
           <i class="fab icon fa-bootstrap"></i>
           <p className="icon-description mb-0">Bootstrap</p>
         </div>
-        <div className="col-sm-2 col-md-1 col-3 px-4 py-3 ">
+        <div className=" col-md-1 col-2 px-2 py-3 ">
           <i class="fab icon fa-github"></i>
           <p className="icon-description mb-0">GitHub</p>
         </div>
-        <div className="col-sm-2 col-md-1 col-3 px-4 py-3 ">
+        <div className=" col-md-1 col-2 px-2 py-3 ">
           <i class="fas icon fa-laptop-code"></i>
           <p className="icon-description mb-0">Editor</p>
         </div>
-        <div className="col-sm-2 col-md-1 col-3 px-4 py-3 ">
+        <div className=" col-md-1 col-2 px-2 py-3 ">
           <i class="fas icon fa-server"></i>
           <p className="icon-description mb-0">API</p>
         </div>
-        <div className="col-sm-2 col-md-1 col-3 px-4 py-3 ">
+        <div className=" col-md-1 col-2 px-2 py-3 ">
           <i class="fas icon fa-network-wired"></i>
           <p className="icon-description mb-0">Netlify</p>
         </div>
-        <div className="col-sm-2 col-md-1 col-3 px-4 py-3 ">
+        <div className=" col-md-1 col-2 px-2 py-3 ">
           <i class="fab icon  fa-react"></i>
           <p className="icon-description mb-0">React</p>
         </div>

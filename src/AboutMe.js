@@ -16,7 +16,7 @@ export default function AboutMe() {
         <Title>
           <h1>About Me</h1>
         </Title>
-        <div className="row my-5 pb-5">
+        <div className="row my-5 pb-1">
           <div className="col-md-6">
             <img src={coder} alt="coder" />
             <div className="description px-5">

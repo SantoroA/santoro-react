@@ -51,7 +51,7 @@ export default function AboutMe() {
               )}
             </div>
           </div>
-          <div className="col-md-6 pb-5">
+          <div className="col-md-6 pb-1">
             <p>
               <small>(hover to see more)</small>
             </p>
